@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/blittle
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.bretlittle.com
+  * I am blittle (https://keybase.io/blittle) on keybase.
+  * I have a public key with fingerprint 6CDE 15CB DA14 991D 7FD4  852F 3029 2350 C47D 87EC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017d92624cfe36c2983d2e2ee063b759aad11960ddba76fda53dfac94a73a0a9550a",
+      "fingerprint": "6cde15cbda14991d7fd4852f30292350c47d87ec",
+      "host": "keybase.io",
+      "key_id": "30292350c47d87ec",
+      "kid": "01017d92624cfe36c2983d2e2ee063b759aad11960ddba76fda53dfac94a73a0a9550a",
+      "uid": "5550202b148bb4fe8cd360758b8b3519",
+      "username": "blittle"
+    },
+    "service": {
+      "hostname": "www.bretlittle.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1507158953,
+  "expire_in": 157680000,
+  "prev": "7e7a9067fb0f2413952afdd805d0d3c6f4b3ebdfd7812aab0f9b0f3e92bebbb7",
+  "seqno": 75,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJtSBRBGMfPfKmEyjIooYS2IyrPa99mZ/egBCOkMuxLoGBdMzuz3nbn
+7XW7epkogfTlkCQjSzsNDIqwpJOiCAQ1g7RXjKCshEj6UBYEIUZQzZp962MDw/A8
+8/v/53keZnRZpic3o2r3pbzl3i9SxsPh7jpP1Yvw1UYOW6SBCzRyYTp/0AihthMM
+m4QLcLzAC5BooiLKukElRRc1VSIiFSnlFQlDoCFEBEFTeEIwgopBEJCIgXRNRlBC
+PNIA4BHn4wwzWkPjsbgZdZitohMqAB0TJMiaJhBoEFkFoiHxoiZKgNdlSFRIdSYM
+WbarYMVhZFO/abEcC4Lz5f2D/891183bARaJvIgFWcVYNqiqE0nhIVCxiiUgaC5o
+03gU1VJG44jpOBHKNfk4lqw3derO1W1kAUgkEn4cp84fzq9btcwgFrccS7ci7D7k
+ODE74Oqdhti8gOLgglUQm1HChskU9TRum1aUCwiM1B3T9RYADwWgakDycfRYzIzT
+oOkSACoqz5b7Dq1nlpBCpPEKNDBviLIgaUBEBiEqDwhPJF0xZCxRTAwCVUFEiFEa
+2xLVREwxxpBzmzsatbgABKxOVMM8bbMmipy6OGt9ZKg6y5OR68nJXuT+Mk/u0ry/
+f689vfgn7N+/5aNnPJFsf8MNr+xJn1h/OzudcCZeV17sXdvt3b7hxt4CONFa7D9T
+kRorOhdqevXDeNCt+jtWZK15BpXkusELQnpi5uvZ4m8zxsyj0cTqO1N7Ojd2Od/L
+OvHk0aJrsOvlzvdzS/f+uthbl6wafq6dPJRKo+nE4e6pErCj4G14W86urWP3Qi19
+Me++hsGKHLlh7r6neWQJmZ0+ciVJBoZa89tbxoXkzanJjp67kVOzbeGy497Cwc2d
+l32j40/78w/4+j4HV/U0VceaP7X06CW3orHKd+W+1BuYaFvRnhpuyZz0lp8XSzcB
++/TjnPE11z/YY0/s0sL8CwcHen8DewdDWA==
+=DPNV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blittle
+
+==================================================================
