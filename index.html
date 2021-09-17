@@ -1,111 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Bret Little</title>
-		<meta name="theme-color" content="#333333" />
-		<meta name="Description" content="Hi! I'm Bret Little! I am a New England based landscape and nature photographer, as well as software engineer. I care deeply about the environment and am always looking for opportunities to meaningfuly impact the environment and help solve climate change.">
-		<style type="text/css" media="all">
-			@font-face {
-				font-family: 'Amatic SC';
-				font-style: normal;
-				font-weight: 400;
-				font-display: swap;
-				src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v15/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
-				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-			}
-			html, body, .wrapper {
-				width: 100%;
-				height: 100%;
-				position: relative;
-				margin: 0;
-				padding: 0;
-			}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bret Little</title>
+    <meta name="theme-color" content="#333333" />
+    <meta
+      name="Description"
+      content="Hi! I'm Bret Little! I am a New England based landscape and nature photographer, as well as software engineer. I care deeply about the environment and am always looking for opportunities to meaningfuly impact the environment and help solve climate change."
+    />
+    <style type="text/css" media="all">
+      @font-face {
+        font-family: "Amatic SC";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local("Amatic SC Regular"), local("AmaticSC-Regular"),
+          url(https://fonts.gstatic.com/s/amaticsc/v15/TUZyzwprpvBS1izr_vOECuSf.woff2)
+            format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
 
-			.image {
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				background-repeat: no-repeat!important;
-				background-position: center center!important;
-				background-attachment: fixed!important;
-				background-color: #000!important;
-				background-size: cover!important;
-			}
+      html,
+      body,
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
 
-			h1 {
-				margin-top: 10%;
-				font-family: 'Amatic SC', cursive;
-				font-size: 45px;
-				font-weight: 300;
-				color: white;
-			}
+      .image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-attachment: fixed !important;
+        background-color: #000 !important;
+        background-size: cover !important;
+      }
 
-			.banner {
-				text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
-				position: absolute;
-				right: 22%;
-				top: 122px;
-			}
-			
-			a {
-				display: flex;
-				text-align: right;
-				color: white;
-				text-decoration: none;
-				height:38px;
-				justify-content: flex-end;
-				align-items: center;
-			}
+      h1 {
+        margin-top: 10%;
+        font-family: "Amatic SC", cursive;
+        font-size: 45px;
+        font-weight: 300;
+        color: white;
+      }
 
-			a:link {color: white;text-decoration: none;}
-			a:visited {color: white;}
-			a:hover { color:white; text-decoration : underline;}
-			a:active{color:white; text-decoration : underline; }
+      .banner {
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+        position: absolute;
+        right: 22%;
+        top: 122px;
+      }
 
-			.copyright {
-				position: absolute;
-				bottom: 0;
-				right: 22%;
-				color: rgba(255, 255, 255, 0.5);
-				font-size: 10px;
-				margin-right: 10px;
-				margin-bottom: 2px;
-			}
+      a {
+        display: flex;
+        text-align: right;
+        color: white;
+        text-decoration: none;
+        height: 38px;
+        justify-content: flex-end;
+        align-items: center;
+      }
 
-		</style>
-	</head>
-	<body style="position: relative">
-		<div id="wrapper"></div>
-		<div class="copyright">© 2017 Bret Little</div>
-		<div class="banner">
-			<h1>
-				Bret Little
-			</h1>
-			<a href="https://github.com/blittle">Github</a>
-			<a href="https://www.goodreads.com/blittle">Goodreads</a>
-			<a href="https://www.instagram.com/bret.little/">Instagram</a>
-			<a href="https://keybase.io/blittle">Keybase</a>
-			<a href="https://www.linkedin.com/in/bretlittle">LinkedIn</a>
-			<a href="https://orcid.org/0000-0003-2424-7350">Orcid</a>
-			<a href="https://twitter.com/little_bret">Twitter</a>
-			<a href="https://youpic.com/bretlittle/">YouPic</a>
-			<a href="https://500px.com/bretlittle">500px</a>
-		</div>
-		<script>
-			const time = 160;
+      a:link {
+        color: white;
+        text-decoration: none;
+      }
 
-			function addImages(images) {
-				const length = images.length;
-				const step = 100 / length;
+      a:visited {
+        color: white;
+      }
 
-				let css = '';
+      a:hover {
+        color: white;
+        text-decoration: underline;
+      }
 
-				for(let i = 1; i < length; i++) {
-					css += `
+      a:active {
+        color: white;
+        text-decoration: underline;
+      }
+
+      .copyright {
+        position: absolute;
+        bottom: 0;
+        right: 22%;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 10px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+
+  <body style="position: relative">
+    <div id="wrapper"></div>
+    <div class="copyright">© 2017 Bret Little</div>
+    <div class="banner">
+      <h1>Bret Little</h1>
+      <a href="https://github.com/blittle">Github</a>
+      <a href="https://www.goodreads.com/blittle">Goodreads</a>
+      <a href="https://www.instagram.com/bret.little/">Instagram</a>
+      <a href="https://keybase.io/blittle">Keybase</a>
+      <a href="https://www.linkedin.com/in/bretlittle">LinkedIn</a>
+      <a href="https://orcid.org/0000-0003-2424-7350">Orcid</a>
+      <a href="https://twitter.com/little_bret">Twitter</a>
+      <a href="https://youpic.com/bretlittle/">YouPic</a>
+      <a href="https://500px.com/bretlittle">500px</a>
+    </div>
+    <script>
+      const time = 160;
+
+      function addImages(images) {
+        const length = images.length;
+        const step = 100 / length;
+
+        let css = "";
+
+        for (let i = 1; i < length; i++) {
+          css += `
 						.c${i} {
 							animation: a${i} ${time}s infinite;
 						}
@@ -114,16 +136,16 @@
 							0% {
 								opacity: 0;
 							}
-							${(step * i) - 2}% {
+							${step * i - 2}% {
 								opacity: 0;
 							}
-							${(step * i)}% {
+							${step * i}% {
 								opacity: 1;
 							}
-							${(step * (i +1)) - 2}% {
+							${step * (i + 1) - 2}% {
 								opacity: 1;
 							}
-							${(step * (i +1))}% {
+							${step * (i + 1)}% {
 								opacity: 0;
 							}
 							100% {
@@ -131,58 +153,72 @@
 							}
 						}
 					`;
-				}
+        }
 
-				const style = document.createElement('style');
-				style.type = 'text/css';
-				style.innerHTML = css;
-				document.getElementsByTagName('head')[0].appendChild(style);
+        const style = document.createElement("style");
+        style.type = "text/css";
+        style.innerHTML = css;
+        document.getElementsByTagName("head")[0].appendChild(style);
 
-				let html = '';
+        let html = "";
 
-				for (let i = 0; i < length; i++) {
-					html += `<div class="c${i} image" style=""/></div>`;
-				}
+        for (let i = 0; i < length; i++) {
+          html += `<div class="c${i} image" style=""/></div>`;
+        }
 
-				document.getElementById('wrapper').innerHTML = html;
-			}
+        document.getElementById("wrapper").innerHTML = html;
+      }
 
-			function setImage(image, index) {
-				const width = window.screen.availWidth;
-				const size = width <= 1920
-					 ? '-s'
-				 	 : '';
+      function setImage(image, index) {
+        const width = window.screen.availWidth;
+        const size = width <= 1920 ? "-s" : "";
 
-				const style = `url(${image+size}.jpg)`;
-				document.querySelectorAll('.image')[index].style.background = style;
-			}
+        const style = `url(${image + size}.webp)`;
+        document.querySelectorAll(".image")[index].style.background = style;
+      }
 
-			const images = [
-				'images/1',
-				'images/2',
-				'images/3',
-				'images/4',
-				'images/5',
-				'images/6',
-				'images/7',
-				'images/8',
-				'images/9',
-				'images/10',
-				'images/11',
-				'images/powell-stars',
-				'images/juniper-sunset',
-				'images/powell-sunset',
-				'images/desert-flare',
-				'images/shenandoah-horizon',
-				'images/soldier-summit',
-			];
+      function shuffle(array) {
+        let currentIndex = array.length,
+          randomIndex;
 
-			addImages(images);
-			setImage(images[0], 0);
+        while (currentIndex != 0) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex--;
+          [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex],
+            array[currentIndex],
+          ];
+        }
 
-			for (let i = 0; i < images.length; i++) {
-				setTimeout(() => setImage(images[i], i), ((i - 1) * (time * 1000 / images.length)))
-			}
-		</script>
-	</body>
+        return array;
+      }
+
+      const images = shuffle([
+        "images/1",
+        "images/2",
+        "images/3",
+        "images/4",
+        "images/5",
+        "images/6",
+        "images/7",
+        "images/8",
+        "images/9",
+        "images/10",
+        "images/11",
+        "images/12",
+        "images/13",
+        "images/14",
+      ]);
+
+      addImages(images);
+      setImage(images[0], 0);
+
+      for (let i = 0; i < images.length; i++) {
+        setTimeout(
+          () => setImage(images[i], i),
+          (i - 1) * ((time * 1000) / images.length)
+        );
+      }
+    </script>
+  </body>
 </html>
