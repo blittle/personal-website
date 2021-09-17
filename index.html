@@ -171,7 +171,7 @@
 
       function setImage(image, index) {
         const width = window.screen.availWidth;
-        const size = width <= 1000 ? "-xs" : width <= 1920 ? "-s" : "";
+        const size = width <= 1920 ? "-s" : "";
 
         const style = `url(${image + size}.webp)`;
         document.querySelectorAll(".image")[index].style.background = style;
